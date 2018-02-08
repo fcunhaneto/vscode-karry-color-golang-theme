@@ -1,0 +1,22 @@
+{
+    "name": "karry-color-golang-theme",
+    "displayName": "Karry Color Golang Theme",
+    "description": "I rewrote Karry Color Theme to be specific to Golang.",
+    "version": "0.0.1",
+    "publisher": "fcunhaneto",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Karry Color Golang",
+                "uiTheme": "vs",
+                "path": "./themes/fcunhaneto-karry-color-golang-theme.json"
+            }
+        ]
+    }
+}
