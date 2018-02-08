@@ -18,5 +18,8 @@
                 "path": "./themes/fcunhaneto-karry-color-golang-theme.json"
             }
         ]
+    },
+    "dependencies": {
+        "jshint": "^2.9.5"
     }
 }

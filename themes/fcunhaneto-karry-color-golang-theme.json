@@ -102,8 +102,6 @@
    		"gitDecoration.untrackedResourceForeground": "#9a09b2",
    	 	"gitDecoration.ignoredResourceForeground": "#9a09b2",
     	"gitDecoration.conflictingResourceForeground": "#9a09b2"
-
-
 	},
 	"tokenColors": [ 
 		{
@@ -202,7 +200,7 @@
 				"support.function"
 			],
 			"settings": {
-				"fontStyle": "bold",
+				//"fontStyle": "bold",
 				"foreground": "#AA3731"
 			}
 		},
@@ -214,7 +212,7 @@
 				"support.class"
 			],
 			"settings": {
-				"fontStyle": "bold",
+				// "fontStyle": "bold",
 				"foreground": "#7A3E9D"
 			}
 		},
@@ -229,7 +227,7 @@
 			"name": "Sections",
 			"scope": "entity.name.section",
 			"settings": {
-				"fontStyle": "bold"
+				// "fontStyle": "bold"
 			}
 		},
 		{
@@ -531,18 +529,82 @@
 			}
 		},
 		{
-			"name": "keyword.function.go",
-			"scope": "keyword.function.go",
-			"settings": {
-				"foreground": "#9a09b2"
-			}
+            "name": "Go source.go",
+            "scope": "source.go",
+            "settings": {
+                "foreground": "#435E75"
+            }
 		},
 		{
-			"name": "support.function.builtin.go",
-			"scope": "support.function.builtin.go",
-			"settings": {
-				"foreground": "#D2691E"
-			}
+            "name": "Go keyword.function.go",
+            "scope": "keyword.function.go",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#ABB5F7"
+            }
+		},
+		{
+            "name": "Go keyword.package.go",
+            "scope": "keyword.package.go",
+            "settings": {
+                "foreground": "#B80012" //"#5F70D9"
+            }
+		},
+		{
+            "name": "Go entity.name.function.go",
+            "scope": "entity.name.function.go",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#ff0b9d" //"#90000E" //"#B80012"
+            }
+		},
+		{
+            "name": "Go Support Function",
+            "scope": [
+                "support.function.go",
+                "support.function.builtin.go"
+            ],
+            "settings": {
+                "foreground": "#FE6AC4" //"#FF0B05"
+            }
+		},
+		{
+            "name": "Go Entity type",
+            "scope": [
+                "entity.name.type.go"
+            ],
+            "settings": {
+                "foreground":  "#FF3AB1" // "#FF0B05"
+            }
+        },		
+        {
+            "name": "Go variable.other.assignment.go",
+            "scope": "variable.other.assignment.go",
+            "settings": {
+                "foreground": "#435E75"
+            }
+        },
+        {
+            "name": "Go Constant",
+            "scope": [
+                "constant.language.go",
+                "constant.numeric.integer.go"
+            ],
+            "settings": {
+                "foreground": "#F97500" //"#FF0B05"
+            }
+		},
+		{
+            "name": "Go Operator",
+            "scope": [
+				"keyword.operator.assignment.go",
+				"keyword.operator.arithmetic.go",
+				"keyword.operator.address.go",
+                "keyword.operator.increment.go"
+            ],
+            "settings": {
+                "foreground": "#0071b2" //"#FF0B05"
+            }
 		}
 	]
 }
