@@ -4,7 +4,7 @@
     "description": "I rewrote Karry Color Theme to be specific to Golang.",
     "version": "0.0.1",
     "publisher": "fcunhaneto",
-    "icon": "https://github.com/fcunhaneto/vscode-karry-color-golang-theme/icon.png",
+    "icon": "https://github.com/fcunhaneto/vscode-karry-color-golang-theme/blob/master/icon.png",
     "license": "MIT see in LICENSE.txt",    
     "repository": {
         "type": "git",
