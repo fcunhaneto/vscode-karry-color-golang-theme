@@ -2,7 +2,7 @@
     "name": "karry-color-golang-theme",
     "displayName": "Karry Color Golang Theme",
     "description": "I rewrote Karry Color Theme to be specific to Golang.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "fcunhaneto",
     "icon": "icon.png",
     "license": "MIT see in LICENSE.txt",    
